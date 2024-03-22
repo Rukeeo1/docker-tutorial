@@ -35,12 +35,12 @@ export const ProductCard = ({
           </button>
         </div>
 
-        <span class='product__number-of-color-tile flex'>
+        <span className='product__number-of-color-tile flex'>
           + {numberOfColor} colours
         </span>
 
-        <div class='product__title-flags'>
-          <div class='product__item-flag item-flag'>{itemFlag}</div>
+        <div className='product__title-flags'>
+          <div className='product__item-flag item-flag'>{itemFlag}</div>
         </div>
       </div>
     </div>

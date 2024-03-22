@@ -13,7 +13,6 @@ export const shoes = [
   {
     img: `LacosteNeo`,
     title: "Men's Lacoste L003 Neo Trainers",
-
     numberOfColor: 6,
     itemFlag: 'Bestseller',
   },
