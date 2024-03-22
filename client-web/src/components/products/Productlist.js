@@ -7,10 +7,12 @@ import './Productlist.css';
 export const Productlist = () => {
   const {
     data: products,
-    error,
-    isLoading,
+    // error,
+    // isLoading,
   } = useQuery('myData', async () => {
-    const response = await fetch('http://localhost:3000/products'); // Replace with your API endpoint
+    const response = await fetch(
+      `${process.env.REACT_APP_PRODUCT_SERVICE}/products`
+    ); // Replace with your API endpoint
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
@@ -24,8 +26,6 @@ export const Productlist = () => {
           Lacoste Seasonal Wardrobe&nbsp;
         </h2>
       </div>
-
-      {/* productlist */}
 
       <div className='product__list-container'>
         <div className='product__slider-list'>

@@ -15,11 +15,11 @@ export const Header = () => {
           <div className='homepage__banner-title'>Game, set and style</div>
         </div>
 
-        <a className='homepage__category-button-him' data-type='category'>
+        <a href="#" className='homepage__category-button-him' data-type='category'>
           <span>For him</span>
         </a>
 
-        <a className='homepage__category-button-her' data-type='category'>
+        <a href="#" className='homepage__category-button-her' data-type='category'>
           <span>For her</span>
         </a>
       </div>
